@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: inherit;
+}
+body {
+	background-color: #CCC;
+	font-size: 32px;
+	line-height: 32px;
+	font-family: Courier;
+}
+
+#container {
+	margin: 0 auto;
+	width: 500px;
+	height: 300px;
+	background-color: #FFF;
+}
+
+#textbox {
+	float: right;
+	border: 1px solid #CCCCCC;
+	border-radius: 8px;
+	width: 499px;
+}
+
+#alphabet {
+	
+}
+
+.button {
+	float: right;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	border-radius: 8px;
+}
+
+.letters {
+	background-color: #4A4A4A;
+	float: left;
+}
+
+.letters ul li {
+	margin: 1px;
+	list-style: none;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+.letters a {
+	display: block;
+	text-indent: -9999px;
+}
+
+#alphabet ul li:hover {
+	margin: 0px;
+	border: 1px solid #CCC;
+}
+
+/* Full Width letter */
+.fw {
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+}
+
+/* Half Width letter */
+.hw {
+	width: 16px;
+	height: 32px;
+	overflow: hidden;
+}
+
+.def {
+	background-image: url('./fonts/default3.png');
+	background-repeat: no-repeat;
+}
+
+.alt {
+	background-image: url('./fonts/alternate3.png');
+	background-repeat: no-repeat;
+}
+/* letter positions */
+.a {background-position: 0 0;}
+.b {background-position: -32px 0;}
+.c {background-position: -64px 0;}
+.d {background-position: -96px 0;}
+.e {background-position: -128px 0;}
+.f {background-position: -160px 0;}
+.g {background-position: -192px 0;}
+.h {background-position: -224px 0;}
+.i {background-position: -256px 0;}
+.j {background-position: -288px 0;}
+.k {background-position: -320px 0;}
+.l {background-position: -352px 0;}
+.m {background-position: -384px 0;}
+.n {background-position: -416px 0;}
+.o {background-position: -448px 0;}
+.p {background-position: -480px 0;}
+.q {background-position: -512px 0;}
+.r {background-position: -544px 0;}
+.s {background-position: -576px 0;}
+.t {background-position: -608px 0;}
+.u {background-position: -640px 0;}
+.v {background-position: -672px 0;}
+.w {background-position: -704px 0;}
+.x {background-position: -736px 0;}
+.y {background-position: -768px 0;}
+.z {background-position: -800px 0;}
+.space {background-position: -832px 0;}

@@ -34,7 +34,7 @@ some text
 
 some more text
 
-### <a id="quick"></a>This is the Heading
+### <a>This is the Heading</a>
 
 some more text
 

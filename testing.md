@@ -1,4 +1,4 @@
-Quick instructions [quick](#quick)
+Quick instructions [this-is-the-heading](#this-is-the-heading)
 
 some more text
 
@@ -34,7 +34,7 @@ some text
 
 some more text
 
-### <a>This is the Heading</a>
+### <a></a>This is the Heading
 
 some more text
 
